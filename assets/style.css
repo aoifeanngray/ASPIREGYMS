@@ -15,7 +15,7 @@ header {
     display: inline-block;
     margin-left: 50px;
     border-style:double;
- 
+    margin-right: 50px;
 }
 .navbar { 
     text-transform: uppercase;
@@ -45,6 +45,7 @@ li a:hover {
     background-color: rgb(44, 42, 42);
     color: white;
     text-shadow: 1px 1px red;
+    padding: 10px;
 }
 #content1 {
     background-color: white;
