@@ -1,25 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Vollkorn:wght@600&display=swap');
 
 body { 
-    background-color: orange;
+    background-color: rgb(63, 63, 63);
     color:rgb(44, 42, 42);
 }
 header { 
-    background-color: black;
-    padding: 20px;
-    border-style:double;
+    background-color: #d16a2f;
+    padding: 15px;
+    border-style: 2px solid;
 }
 .promo {
-    width: 90%;
-    max-height: auto;
+    max-width: 100%;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: auto;
     border-style:double;
-    margin-right: 50px;
+    margin-right: auto;
+}
+#name { 
+    color: rgb(250, 243, 243);
+    text-shadow: 1px 2px rgb(7, 7, 7);
+    font-size: 45px;
+    background-color: rgb(136, 135, 135);
+    border:rgb(17, 17, 17) 7px solid;
+    padding: 5px;
 }
 .navbar { 
     text-transform: uppercase;
-    width: 99.7%;
     display: block;
     text-decoration: none;
     text-align: center;
@@ -40,15 +46,15 @@ li a:hover {
     font-size: 160%;
     letter-spacing: 5px;
     display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: rgb(44, 42, 42);
     color: white;
     text-shadow: 1px 1px red;
-    padding: 10px;
+    padding: 15px;
 }
-#content1 {
-    background-color: white;
+#content1, #content2{
+    background-color: #df8958;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -59,23 +65,34 @@ h1, p {
 }
 h1 { 
     font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px red;
+    background-color: rgb(44, 42, 42);
+}
+h2 { 
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px red;
+    background-color: rgb(44, 42, 42);
 }
 p { 
     font-size: 30px;
 }
 .facilities{
-    background-color: white;
-    width: 80%;
+    background-color: #df8958;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     font-size: 25px;
     font-family: inherit;
 }
 #facilities-list li {
-    background-color: white;
-    width: 80%;
+    background-color: #df8958;
+    width: 90%;
+    min-height: auto;
     font-size: 30px;
     font-family: inherit;
+    padding: 0;
 }
 #gym-machines, #facilities-img {
     width: 80%;
@@ -83,4 +100,5 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: white solid;
 }
