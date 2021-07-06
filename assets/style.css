@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Vollkorn:wght@600&display=swap');
 
 body { 
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(148, 58, 58);
     color:rgb(44, 42, 42); 
     margin: auto;
 }
 header { 
-    background-color: #d16a2f;
+    background-color: #dfdddb;
     padding: 15px;
     border-style: 2px solid;
 }
@@ -18,8 +18,8 @@ header {
     margin-right: auto;
 }
 #name { 
-    color: rgb(250, 243, 243);
-    text-shadow: 1px 2px rgb(7, 7, 7);
+    color: rgb(41, 32, 32);
+    text-shadow: 1px 2px rgb(250, 248, 248);
     font-size: 45px;
     background-color: rgb(136, 135, 135);
     border:rgb(17, 17, 17) 7px solid;
@@ -31,10 +31,10 @@ header {
     text-decoration: none;
     text-align: center;
     border-style:double;
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(148, 58, 58);
 }
 li a:hover {
-    color: rgb(182, 123, 14);
+    color: rgb(148, 58, 58);
     border-bottom:black solid 2px;
 }
 .active {
@@ -55,7 +55,7 @@ li a:hover {
     padding: 15px;
 }
 #content {
-    background-color: #df8958;
+    background-color: #fffcfb;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -80,7 +80,7 @@ p {
     font-size: 30px;
 }
 .facilities{
-    background-color: #df8958;
+    background-color: #fffcfb;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -88,7 +88,7 @@ p {
     font-family: inherit;
 }
 #facilities-list li {
-    background-color: #df8958;
+    background-color: #fffcfb;
     width: 90%;
     min-height: auto;
     font-size: 30px;
@@ -109,22 +109,22 @@ p {
     text-align: left;
 }
 #content1 {
-    background-color: #df8958;
+    background-color: #fffcfb;
     text-align: left;
+    margin-right: 20px;
 }
 .map {
-    max-width: 30%;
-    background-color: #d16a2f;
-
-}
-#content2 {
-    background-color: #df8958;
+    background-color: #fffcfb;
+    border:rgb(44, 42, 42) solid;
 }
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-flow: row;
     margin-bottom: 20px;
+}
+.topmargin {
+    margin-top: 0px;
 }
 #footer{
     clear: both;
