@@ -2,7 +2,8 @@
 
 body { 
     background-color: rgb(63, 63, 63);
-    color:rgb(44, 42, 42);
+    color:rgb(44, 42, 42); 
+    margin: auto;
 }
 header { 
     background-color: #d16a2f;
@@ -103,32 +104,27 @@ p {
     border: white solid;
 }
 .time {
-    display:flexbox;
-    justify-content: space-around;
-    width: 45%;
+    max-width: 45%;
     font-size: 30px;
     text-align: left;
 }
 #content1 {
     background-color: #df8958;
-    margin-left: 10%;
-    margin-right: auto;
     text-align: left;
 }
-
 .map {
-    display: flex-box;
-    justify-content: space-around;
-    width: 30%;
+    max-width: 30%;
     background-color: #d16a2f;
+
 }
 #content2 {
     background-color: #df8958;
-    margin-left: auto;
-    margin-right: 10%;
 }
-iframe {
-    padding: 5%;
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    margin-bottom: 20px;
 }
 #footer{
     clear: both;
@@ -136,5 +132,6 @@ iframe {
     height: 7vh;
     text-align: center;
     background-color: rgb(20, 20, 20);
-    padding: 20px;
+    padding: 2%;
+    color:rgb(250, 243, 243);
 }
