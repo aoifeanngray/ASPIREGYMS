@@ -158,6 +158,9 @@ p {
     h1 {
         font-size: 30px;
     }
+    h2 {
+        font-size: 30px;
+    }
     p {
         font-size: 20px;
     }
@@ -183,5 +186,10 @@ p {
     }
     .facilities{
         width: 100%;
+    }
+    #facilities-list li {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
     }
 }
