@@ -180,10 +180,12 @@ p {
         justify-content: center;
     }
     #gym-machines {
-        width: 100%;
+        width: 90%;
         height: auto;
-        justify-content: center;
         border: white solid;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .facilities{
         width: 100%;
@@ -197,11 +199,10 @@ p {
         display: none;
     }
     #facilities-img2 {
-        width: 100%;
+        width: 90%;
         height: auto;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 5%;
         border: white solid;
     }
     .time {
@@ -210,6 +211,11 @@ p {
         text-align: left;
         margin-bottom: 5%;
         margin-left: 8%;
+    }
+    #content1 {
+        max-width: 100%;
+        margin-left: 1%;
+        margin-right: auto;
     }
     .container {
         flex-flow: column;
@@ -220,10 +226,11 @@ p {
         text-align: left;
     }
     .map { 
-        margin-left: auto;
+        margin-left: 1%;
     }
     #footer {
     margin-right: 0px;
     width: 100%;
+    font-size:small;
     }
 }
