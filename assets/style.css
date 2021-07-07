@@ -143,9 +143,7 @@ p {
 @media screen and (max-width: 320px){
     body {
         margin: 0px;
-        margin-left: 10%;
-        margin-right: -13%;
-        width: auto;
+        width: 100%;
     }
     #name {
         font-size: 30px;
@@ -205,5 +203,27 @@ p {
         margin-left: auto;
         margin-right: auto;
         border: white solid;
+    }
+    .time {
+        max-width: 100%;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 5%;
+        margin-left: 8%;
+    }
+    .container {
+        flex-flow: column;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .aligning {
+        text-align: left;
+    }
+    .map { 
+        margin-left: auto;
+    }
+    #footer {
+    margin-right: 0px;
+    width: 100%;
     }
 }
