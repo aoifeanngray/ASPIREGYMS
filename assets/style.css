@@ -302,24 +302,15 @@ p {
         border: white solid;
     }
     .time {
-        max-width: 100%;
+        min-width: 100%;
         font-size: 20px;
         text-align: left;
         margin-bottom: 5%;
-        margin-left: 8%;
-    }
-    #content1 {
-        max-width: 100%;
-        margin-left: 4%;
-        margin-right: auto;
     }
     .container {
         flex-flow: column;
         margin-bottom: 20px;
         width: 100%;
-    }
-    .map { 
-        margin-left: 4%;
     }
     #footer {
     margin-right: 0px;
