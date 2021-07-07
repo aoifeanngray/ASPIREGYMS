@@ -30,7 +30,6 @@ header {
     display: block;
     text-decoration: none;
     text-align: center;
-    border-style:double;
     background-color: rgb(148, 58, 58);
 }
 li a:hover {
@@ -134,4 +133,41 @@ p {
     background-color: rgb(20, 20, 20);
     padding: 2%;
     color:rgb(250, 243, 243);
+}
+@media screen and (min-width: 320px){
+    body {
+        margin: 0px;
+        width: auto;
+    }
+    #name {
+        font-size: 30px;
+    }
+    #menu li {
+        font-size: medium;
+        margin-right: 10%;
+        margin-left: -6%;
+        justify-content: center;
+        display: block;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px;
+    }
+    #content {
+        background-color: #fffcfb;
+        width: 100%;
+        justify-content: center;
+    }
+    #gym-machines {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        border: white solid;
+    }
+    .facilities{
+        width: 100%;
+    }
 }
