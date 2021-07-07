@@ -234,3 +234,96 @@ p {
     font-size:small;
     }
 }
+@media screen and (max-width: 674px){
+    body {
+        margin: 0px;
+        width: 100%;
+    }
+    #name {
+        font-size: 35px;
+    }
+    .navbar {
+        width: 100%;
+        display: inline-block;
+    }
+    #menu li {
+        font-size: medium;
+        margin-right: 7%;
+        justify-content: center;
+        display: block;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .promo1 {
+        display: none;
+    }
+    .promo2 {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #content {
+        width: 100%;
+        justify-content: center;
+    }
+    #gym-machines {
+        width: 90%;
+        height: auto;
+        border: white solid;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .facilities{
+        width: 100%;
+    }
+    #facilities-list li {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+    }
+    #facilities-img {
+        display: none;
+    }
+    #facilities-img2 {
+        width: 90%;
+        height: auto;
+        display: block;
+        margin-left: 5%;
+        border: white solid;
+    }
+    .time {
+        max-width: 100%;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 5%;
+        margin-left: 8%;
+    }
+    #content1 {
+        max-width: 100%;
+        margin-left: 4%;
+        margin-right: auto;
+    }
+    .container {
+        flex-flow: column;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .map { 
+        margin-left: 4%;
+    }
+    #footer {
+    margin-right: 0px;
+    width: 100%;
+    font-size:small;
+    }
+}
