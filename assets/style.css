@@ -463,6 +463,10 @@ p {
         margin-top: 5%;
         margin-bottom: 5%;
     }
+    video {
+        width: 100%;
+        justify-content: center;
+    }
     #footer {
     margin-right: 0px;
     width: 100%;
