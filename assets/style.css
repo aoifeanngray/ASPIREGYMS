@@ -63,6 +63,13 @@ li a:hover {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    display: block;
+}
+#content3 {
+    background-color: #949291;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .locations {
     display: block;
@@ -120,6 +127,13 @@ p {
     max-width: 45%;
     font-size: 30px;
     text-align: left;
+}
+.deal {
+    max-width: 100%;
+    font-size: 30px;
+    text-align: center;
+    border:rgb(44, 42, 42) solid;
+    margin-bottom: 2%;
 }
 #content1 {
     background-color: #fffcfb;
