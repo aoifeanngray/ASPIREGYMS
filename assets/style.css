@@ -178,6 +178,7 @@ p {
     #content {
         width: 100%;
         justify-content: center;
+        margin-left: 2%;
     }
     #gym-machines {
         width: 90%;
@@ -189,6 +190,7 @@ p {
     }
     .facilities{
         width: 100%;
+        margin-left: 2%;
     }
     #facilities-list li {
         width: 100%;
@@ -234,10 +236,13 @@ p {
     font-size:small;
     }
 }
-@media screen and (max-width: 674px){
+@media screen and (max-width: 800px){
     body {
         margin: 0px;
         width: 100%;
+    }
+    header {
+        margin-left: 2%;
     }
     #name {
         font-size: 35px;
@@ -274,6 +279,7 @@ p {
     #content {
         width: 100%;
         justify-content: center;
+        margin-left: 2%;
     }
     #gym-machines {
         width: 90%;
@@ -285,6 +291,7 @@ p {
     }
     .facilities{
         width: 100%;
+        margin-left: 2%;
     }
     #facilities-list li {
         width: 100%;
@@ -300,6 +307,97 @@ p {
         display: block;
         margin-left: 5%;
         border: white solid;
+    }
+    .time {
+        min-width: 100%;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 5%;
+    }
+    .container {
+        flex-flow: column;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #footer {
+    margin-right: 0px;
+    width: 100%;
+    font-size:small;
+    }
+}
+@media screen and (max-width: 1080px){
+    body {
+        margin: 0px;
+        width: 100%;
+    }
+    header {
+        margin-left: 2%;
+    }
+    #name {
+        font-size: 35px;
+    }
+    .navbar {
+        width: 100%;
+        display: inline-block;
+    }
+    #menu li {
+        font-size: medium;
+        margin-right: 7%;
+        justify-content: center;
+        display: block;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .promo1 {
+        display: none;
+    }
+    .promo2 {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #content {
+        width: 100%;
+        justify-content: center;
+        margin-left: 2%;
+    }
+    #gym-machines {
+        width: 90%;
+        height: auto;
+        border: white solid;
+        display: block;
+        margin-left: 7%;
+        margin-right: auto;
+    }
+    .facilities{
+        width: 100%;
+        margin-left: 2%;
+    }
+    #facilities-list li {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+    }
+    #facilities-img {
+        
+        width: 90%;
+        height: auto;
+        display: block;
+        margin-left: 7%;
+        margin-right: auto;
+        border: white solid;
+    }
+    #facilities-img2 {
+        display: none;
     }
     .time {
         min-width: 100%;
