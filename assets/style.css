@@ -65,6 +65,13 @@ li a:hover {
     margin-right: auto;
     display: block;
 }
+#prices {
+    background-color: #fffcfb;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 #content3 {
     background-color: #949291;
     width: 80%;
@@ -126,6 +133,7 @@ p {
     margin-right: auto;
     border: white solid;
 }
+
 #trainer{
     width: 80%;
     height: auto;
@@ -171,6 +179,11 @@ p {
     text-align: left;
     margin-right: 20px;
 }
+#monthly {
+    background-color: #fffcfb;
+    text-align: left;
+    margin-right: 20px;
+}
 .map {
     background-color: #fffcfb;
     border:rgb(44, 42, 42) solid;
@@ -181,8 +194,18 @@ p {
     flex-flow: row;
     margin-bottom: 20px;
 }
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    margin-bottom: 20px;
+}
 .topmargin {
     margin-top: 0px;
+}
+.theprices {
+    background-color: #fffcfb;
+    border:rgb(44, 42, 42) solid;
 }
 #footer{
     clear: both;
@@ -280,16 +303,52 @@ p {
         margin-left: 1%;
         margin-right: auto;
     }
+    #monthly {
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 8%;
+    }
+    #content4 {
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
     .container {
         flex-flow: column;
         margin-bottom: 20px;
         width: 100%;
+    }
+    .container1 {
+        flex-flow: column;
+    }
+    .container2 {
+        flex-flow: column;
+        margin-bottom: 0;
+        width: 100%;
+    }
+    #prices {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+        font-size: 20px;
     }
     .aligning {
         text-align: left;
     }
     .map { 
         margin-left: 1%;
+    }
+    .deal {
+        border: rgb(17, 17, 17);
+    }
+    video {
+        width: 90%;
+        margin-top: 5%;
+        margin-left: 5%;
+        justify-content: center;
+    }
+    .theprices {
+        border: 0;
     }
     #footer {
     margin-right: 0px;
