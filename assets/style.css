@@ -71,6 +71,12 @@ li a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+#content2 {
+    background-color: #fdfcfb;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .locations {
     display: block;
     font-size: 30px;
@@ -120,6 +126,30 @@ p {
     margin-right: auto;
     border: white solid;
 }
+#trainer{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    border: white solid;
+}
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    margin-bottom: 20px;
+    margin-left: 8%;
+    Margin-right: 8%;
+}
+#content4 {
+    background-color: #fffcfb;
+    width: 30%;
+    height:auto;
+    display: inline-block;
+    justify-content: space-between;
+}
 #facilities-img2 {
     display: none;
 }
@@ -135,6 +165,7 @@ p {
     border:rgb(44, 42, 42) solid;
     margin-bottom: 2%;
 }
+
 #content1 {
     background-color: #fffcfb;
     text-align: left;
