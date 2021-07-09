@@ -148,8 +148,8 @@ p {
     justify-content: space-evenly;
     flex-flow: row;
     margin-bottom: 20px;
-    margin-left: 8%;
-    Margin-right: 8%;
+    margin-left: 5%;
+    Margin-right: 9%;
 }
 #content4 {
     background-color: #fffcfb;
@@ -183,6 +183,7 @@ p {
     background-color: #fffcfb;
     text-align: left;
     margin-right: 20px;
+    margin-left: 6%;
 }
 .map {
     background-color: #fffcfb;
@@ -202,6 +203,7 @@ p {
 }
 .topmargin {
     margin-top: 0px;
+    text-align: center; 
 }
 .theprices {
     background-color: #fffcfb;
@@ -560,6 +562,30 @@ p {
         flex-flow: column;
         margin-bottom: 20px;
         width: 100%;
+    }
+    #monthly {
+        width: 100%;
+        margin-left: 6%;
+        margin-bottom: 3%;
+    }
+    .container2 {
+        flex-flow: column;
+        margin-bottom: 0;
+        width: 80%;
+        margin-left: 5%;
+    }
+    .container1 {
+        flex-flow: column;
+    }
+    #content4 {
+        width: 100%;
+        margin-left: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    video {
+        width: 100%;
+        justify-content: center;
     }
     #footer {
     margin-right: 0px;
