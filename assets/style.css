@@ -3,7 +3,7 @@
 body { 
     background-color: rgb(148, 58, 58);
     color:rgb(44, 42, 42); 
-    
+    margin: 0;
 }
 header { 
     background-color: #a09b9b;
@@ -14,7 +14,6 @@ header {
     max-width: 100%;
     display: inline-block;
     margin-left: auto;
-    border-style:double;
     margin-right: auto;
 }
 .promo2 {
@@ -209,14 +208,32 @@ p {
     background-color: #fffcfb;
     border:rgb(44, 42, 42) solid;
 }
-#footer{
-    clear: both;
-    bottom: 0;
-    height: 7vh;
+fieldset {
+    flex-flow: column;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(180, 175, 175);
+    margin-top: 5%;
+}
+legend {
+    font-size: 30px;
+    font-weight: 300;
+    background-color: rgb(250, 243, 243);
+    border: rgb(41, 32, 32) solid;
+}
+#contact {
+    margin: 2%;
     max-width: 100%;
+}
+#footer {
+    height: 15vh;
     text-align: center;
     background-color: rgb(20, 20, 20);
     color:rgb(250, 243, 243);
+    display: block;
+    margin-right: 0px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 320px) {
