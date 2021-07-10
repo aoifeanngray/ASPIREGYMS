@@ -23,19 +23,24 @@
             <img src="images/promo img.jpg" alt="promo img" class="promo1">
             <img src="images/promo img2.jpg" alt="promo img" class="promo2">
 	</header>
+    <h3>Fill out the form below to receive a call from your selected location for more info!</h3>
         <fieldset>
         <legend><strong>Contact Form</strong></legend>
-        <form>
-           <div id="contact">
+        <form id="contact">
                 <label for="name"><strong>Name:</strong></label>
+                <br>
                 <input id="name2" type="text"> 
-            </div>
-            <div id="contact">
+            <br>
+            <label for="number"><strong>Phone Number:</strong></label>
+                <br>
+                <input id="number" type="number"> 
+            <br>
                 <label for="email"><strong>Email Address:</strong></label>
+                <br>
                 <input for="email" type="email"> 
-            </div>
-            <div id="contact">
+            <br>
                 <label for="locations"><strong>Location:</strong></label>
+                <br>
                 <select name="locations" type="select">
                     <option for="Dublin">Dublin</option>
                     <option for="Meath">Meath</option>
@@ -46,10 +51,12 @@
                     <option for="Limerick">Limerick</option>
                     <option for="Wexford">Wexford</option>
                 </select>
-            </div>
-            <div>
+                <br>
                 <textarea name="info" id="info" placeholder="What can we help you with?" rows="10" cols="40"></textarea>
-            </div>   
+                <br>
+                <button type="submit" value="submit"><strong>Submit</strong></button>
+                <br>
+                <input type="reset" id="reset" value="Reset form">
         </form>
         </fieldset>
     <footer id="footer"> @COPYRIGHT 2021 </footer>
