@@ -3,7 +3,7 @@
 body { 
     background-color: rgb(148, 58, 58);
     color:rgb(44, 42, 42); 
-    margin: auto;
+    
 }
 header { 
     background-color: #a09b9b;
@@ -60,7 +60,7 @@ li a:hover {
 }
 #content {
     background-color: #fffcfb;
-    max-width: 100%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -111,7 +111,7 @@ p {
 }
 .facilities{
     background-color: #fffcfb;
-    max-width: 100%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-size: 25px;
@@ -213,6 +213,7 @@ p {
     clear: both;
     bottom: 0;
     height: 7vh;
+    max-width: 100%;
     text-align: center;
     background-color: rgb(20, 20, 20);
     color:rgb(250, 243, 243);
@@ -221,10 +222,10 @@ p {
 @media only screen and (max-width: 320px) {
     body {
         margin: 0px;
-        width: 100%;
+        max-width: 100%;
     }
     header {
-        margin-left: 4%;
+        margin-left: 0;
     }
     #name {
         font-size: 30px;
@@ -273,8 +274,7 @@ p {
         margin-right: auto;
     }
     .facilities{
-        width: 100%;
-        margin-left: 2%;
+        max-width: 100%;
     }
     #facilities-list li {
         width: 100%;
@@ -300,8 +300,6 @@ p {
     }
     #content1 {
         max-width: 100%;
-        margin-left: 1%;
-        margin-right: auto;
     }
     #monthly {
         max-width: 100%;
@@ -334,9 +332,6 @@ p {
     }
     .aligning {
         text-align: left;
-    }
-    .map { 
-        margin-left: 1%;
     }
     .deal {
         border: rgb(17, 17, 17);
@@ -475,10 +470,7 @@ p {
 @media only screen and (min-width: 601px) and (max-width: 1250px) {
     body {
         margin: 0px;
-        width: 100%;
-    }
-    header {
-        margin-left: 2%;
+        max-width: 100%;
     }
     #name {
         font-size: 35px;
@@ -517,7 +509,7 @@ p {
         display: none;
     }
     #content {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
     #gym-machines {
@@ -529,7 +521,7 @@ p {
         margin-right: auto;
     }
     .facilities{
-        width: 100%;
+        width: 80%;
     }
     #facilities-list li {
         width: 100%;
@@ -547,15 +539,16 @@ p {
         border: white solid;
     }
     .time {
-        min-width: 100%;
+        max-width: 80%;
         font-size: 20px;
         text-align: left;
         margin-bottom: 5%;
     }
     .container {
-        flex-flow: column;
+        flex-flow: row;
         margin-bottom: 20px;
-        width: 100%;
+        max-width: 80%;
+        margin-left: 8%;
     }
     #monthly {
         width: 100%;
