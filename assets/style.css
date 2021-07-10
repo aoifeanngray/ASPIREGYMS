@@ -390,7 +390,7 @@ h3 {
     }
     #footer {
     margin: 0;
-    width: 100%;
+    max-width: 100%;
     font-size:small;
     }
 }
@@ -500,8 +500,7 @@ h3 {
         justify-content: center;
     }
     #footer {
-    margin-right: 0px;
-    width: 100%;
+    max-width: 100%;
     font-size:small;
     }
 }
@@ -615,8 +614,7 @@ h3 {
         justify-content: center;
     }
     #footer {
-    margin-right: 0px;
-    width: 100%;
+    max-width: 100%;
     font-size:small;
     }
 }
