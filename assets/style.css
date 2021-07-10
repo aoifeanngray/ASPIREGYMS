@@ -60,7 +60,7 @@ li a:hover {
 }
 #content {
     background-color: #fffcfb;
-    width: 80%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -111,7 +111,7 @@ p {
 }
 .facilities{
     background-color: #fffcfb;
-    width: 60%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     font-size: 25px;
@@ -215,7 +215,6 @@ p {
     height: 7vh;
     text-align: center;
     background-color: rgb(20, 20, 20);
-    padding: 2%;
     color:rgb(250, 243, 243);
 }
 
@@ -261,9 +260,8 @@ p {
         margin-right: auto;
     }
     #content {
-        width: 100%;
+        max-width: 100%;
         justify-content: center;
-        margin-left: 2%;
         font-size: 20px;
     }
     #gym-machines {
@@ -403,9 +401,8 @@ p {
         margin-right: auto;
     }
     #content {
-        width: 100%;
+        max-width: 100%;
         justify-content: center;
-        margin-left: 2%;
     }
     #gym-machines {
         width: 90%;
@@ -416,8 +413,7 @@ p {
         margin-right: auto;
     }
     .facilities{
-        width: 100%;
-        margin-left: 2%;
+        max-width: 100%;
     }
     #facilities-list li {
         width: 100%;
@@ -521,9 +517,8 @@ p {
         display: none;
     }
     #content {
-        width: 100%;
+        max-width: 100%;
         justify-content: center;
-        margin-left: 2%;
     }
     #gym-machines {
         width: 90%;
@@ -535,7 +530,6 @@ p {
     }
     .facilities{
         width: 100%;
-        margin-left: 2%;
     }
     #facilities-list li {
         width: 100%;
