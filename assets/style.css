@@ -19,7 +19,7 @@ header {
 .promo2 {
     display: none;
 }
-#name { 
+#name2 { 
     color: rgb(41, 32, 32);
     text-shadow: 1px 2px rgb(250, 248, 248);
     font-size: 45px;
@@ -265,7 +265,7 @@ h3 {
     header {
         margin-left: 0;
     }
-    #name {
+    #name2 {
         font-size: 30px;
     }
     #menu li {
@@ -402,7 +402,7 @@ h3 {
     header {
         margin-left: 2%;
     }
-    #name {
+    #name2 {
         font-size: 35px;
     }
     .navbar {
@@ -515,7 +515,7 @@ h3 {
         margin: 0px;
         max-width: 100%;
     }
-    #name {
+    #name2 {
         font-size: 35px;
     }
     .navbar {
