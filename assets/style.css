@@ -132,7 +132,6 @@ p {
     margin-right: auto;
     border: white solid;
 }
-
 #trainer{
     width: 80%;
     height: auto;
@@ -215,6 +214,7 @@ fieldset {
     margin-right: auto;
     background-color: rgb(180, 175, 175);
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 legend {
     font-size: 30px;
@@ -222,12 +222,33 @@ legend {
     background-color: rgb(250, 243, 243);
     border: rgb(41, 32, 32) solid;
 }
-#contact {
-    margin: 2%;
-    max-width: 100%;
+div #contact{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+input, select, textarea {
+    padding: 8px;
+    display: block;
+    min-width: 90%;
+}
+#reset {
+    padding: 0;
+    display: block;
+    min-width: 0;
+}
+h3 {
+    background-color: white;
+    display: block;
+    text-align: center; 
+    font-size: 30px;
+    font-weight: 400;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #footer {
-    height: 15vh;
+    height: 7vh;
     text-align: center;
     background-color: rgb(20, 20, 20);
     color:rgb(250, 243, 243);
@@ -274,7 +295,6 @@ legend {
         max-width: 100%;
         display: inline-block;
         margin-left: auto;
-        border-style:double;
         margin-right: auto;
     }
     #content {
@@ -362,8 +382,14 @@ legend {
     .theprices {
         border: 0;
     }
+    fieldset { 
+        padding: 0;
+    }
+    input, select, textarea {
+        padding: 0;
+    }
     #footer {
-    margin-right: 0px;
+    margin: 0;
     width: 100%;
     font-size:small;
     }
