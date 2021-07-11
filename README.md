@@ -91,4 +91,24 @@ The contact form provides the user access to the gym they desire and also the gy
 This displays the copyright details. 
 ![footer - all pages](https://user-images.githubusercontent.com/84388121/125212359-c9051700-e2a4-11eb-9267-5019ce7eebc9.JPG)
 
-## Future Features: 
+### Future Features: 
+- Gym classes schedule to be added to a new page on the site. 
+- Allow users to buy memberships online.
+- Personal trainers profile page for each gym.
+
+## Testing:
+The three pages have been tested across all screen sizes for a responsive experience by creating media queries in the CSS file. Throughout my testing of the screen sizing for each page I had to go back through and change some size values in order to have them formatted to work correctly.
+
+On completion of my testing, I then ran my code through validators to ensure my code was up to standard, I did this using W3C validator for HTML and Jigsaw Validator for CSS.
+
+As this project is static and contains no back-end functionality at this time, the testing performed was on the visual effects and layout of the Website. Testing has been done on at least three web browsers and all screen sizes down to 320px wide.
+
+All nav links direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html.
+
+All links to external websites open in a new browser.
+
+All links show a difference in Color when you hover over the link.
+
+All images are responsive, some have been hidden including their containers on some page sizes also.
+
+The Video is responsive in the fact on smaller size screens it is hidden and so is its parent container, this is not a bug but intentionally done. The video also has user controls and can be opened in youtube externally in a new tab.
