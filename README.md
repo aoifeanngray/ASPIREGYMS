@@ -1,1 +1,1 @@
-![responsive website] (https://github.com/aoifeanngray/ASPIREGYMS/blob/master/readme-images/responsive%20image.JPG)
+![Responsive Website] (https://github.com/aoifeanngray/ASPIREGYMS/issues/1#issue-941486716)
