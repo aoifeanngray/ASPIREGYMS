@@ -129,7 +129,8 @@ This displays the copyright details.
 
 ## Contact Page
 ### Error 1: 
-......
+- remove the type from contact page to correct thie below error. 
+![error-contact](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%20-%20contact%20page.JPG)
 
 ## W3C CSS Validator Results:
 ![css validator](https://user-images.githubusercontent.com/84388121/125218640-4a67a400-e2bb-11eb-9bf3-433b0611c69a.JPG)
