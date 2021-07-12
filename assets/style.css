@@ -177,7 +177,7 @@ p {
     text-align: left;
     margin-right: 20px;
 }
-#monthly {
+#monthly1, #monthly2, #monthly3, #monthly4 {
     background-color: #fffcfb;
     text-align: left;
     margin-right: 20px;
@@ -338,7 +338,7 @@ h3 {
     #content1 {
         max-width: 100%;
     }
-    #monthly {
+    #monthly1, #monthly2, #monthly3, #monthly4 {
         max-width: 100%;
         margin: auto;
         margin-bottom: 8%;
@@ -475,7 +475,7 @@ h3 {
         margin-bottom: 20px;
         width: 100%;
     }
-    #monthly {
+    #monthly1, #monthly2, #monthly3, #monthly4 {
         width: 100%;
         margin-left: 3%;
         margin-bottom: 3%;
@@ -588,7 +588,7 @@ h3 {
         max-width: 80%;
         margin-left: 8%;
     }
-    #monthly {
+    #monthly1, #monthly2, #monthly3, #monthly4 {
         width: 100%;
         margin-left: 6%;
         margin-bottom: 3%;
