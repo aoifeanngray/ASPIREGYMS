@@ -111,8 +111,12 @@ This displays the copyright details.
 ![error2 - home page](https://user-images.githubusercontent.com/84388121/125214498-6ebd8380-e2af-11eb-8896-d4a45a44aaa7.JPG)
 
 ### Error 3: 
-- The list of facilities has an intentional UL inside a UL as it is a sub-list. 
+- The list of facilities has an intentional UL inside a UL as it is a sub-list. Kept the same.
 ![error3 - home page](https://user-images.githubusercontent.com/84388121/125214910-79791800-e2b1-11eb-9918-8f7c635e2477.JPG)
+
+### Error 4: 
+- This error has been left as the two sections have the same CSS styling, therefore same ID applied. 
+![error 4 - home page](https://user-images.githubusercontent.com/84388121/125215059-1a67d300-e2b2-11eb-8d59-b87c2e4d7c9a.JPG)
 
 
 
