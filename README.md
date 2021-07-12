@@ -96,7 +96,7 @@ This displays the copyright details.
 - Allow users to buy memberships online.
 - Personal trainers profile page for each gym.
 
-## Testing:
+## Testing and Validating:
 - The three pages have been tested across all screen sizes for a responsive experience by creating media queries in the CSS file. Throughout my testing of the screen sizing for each page I had to go back through and change some size values in order to have them formatted to work correctly.
 
 - On completion of my testing, I then put my code through validators to ensure my code was up to standard, to identify error so they can be corrected. I used the W3C validator for HTML and Jigsaw Validator for CSS.
@@ -126,6 +126,9 @@ This displays the copyright details.
 
 ### Error 2: 
 - This error has been corrected, two ID's used in more than one element. They had the same CSS styling, therefore same ID had been applied. (monthly and prices) 
+
+## Contact Page
+### Error 1: 
 
 
 - All nav links when clicked perform the correct function to bring the user to the correct html pages.
