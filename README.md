@@ -97,18 +97,27 @@ This displays the copyright details.
 - Personal trainers profile page for each gym.
 
 ## Testing:
-The three pages have been tested across all screen sizes for a responsive experience by creating media queries in the CSS file. Throughout my testing of the screen sizing for each page I had to go back through and change some size values in order to have them formatted to work correctly.
+- The three pages have been tested across all screen sizes for a responsive experience by creating media queries in the CSS file. Throughout my testing of the screen sizing for each page I had to go back through and change some size values in order to have them formatted to work correctly.
 
-On completion of my testing, I then ran my code through validators to ensure my code was up to standard, I did this using W3C validator for HTML and Jigsaw Validator for CSS.
+- On completion of my testing, I then put my code through validators to ensure my code was up to standard, to identify error so they can be corrected. I used the W3C validator for HTML and Jigsaw Validator for CSS.
 
-As this project is static and contains no back-end functionality at this time, the testing performed was on the visual effects and layout of the Website. Testing has been done on at least three web browsers and all screen sizes down to 320px wide.
+## W3C validator results: 
+### Error 1:
+- Changed the image names to remove the spacings. Also, all images are visible and responsive to screen size. 
+![error - home page](https://user-images.githubusercontent.com/84388121/125214199-96abe780-e2ad-11eb-92b6-a9ff1285fdec.JPG) 
 
-All nav links direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html.
+### Error 2:
+- P element was inputted as a child of the Unordered list element. This has been corrected and removed as a child of that element. 
+![error2 - home page](https://user-images.githubusercontent.com/84388121/125214498-6ebd8380-e2af-11eb-8896-d4a45a44aaa7.JPG)
 
-All links to external websites open in a new browser.
+### Error 3: 
+- The list of facilities has an intentional UL inside a UL as it is a sub-list. 
+![error3 - home page](https://user-images.githubusercontent.com/84388121/125214910-79791800-e2b1-11eb-9918-8f7c635e2477.JPG)
 
-All links show a difference in Color when you hover over the link.
 
-All images are responsive, some have been hidden including their containers on some page sizes also.
 
-The Video is responsive in the fact on smaller size screens it is hidden and so is its parent container, this is not a bug but intentionally done. The video also has user controls and can be opened in youtube externally in a new tab.
+- All nav links when clicked perform the correct function to bring the user to the correct html pages.
+
+- All nav links show a difference in Color when you hover over the link.
+
+- The Video is responsive when the screen size is at 320px. The video also has user controls and will start playing automatically when the user clicks on the page and is muted. 
