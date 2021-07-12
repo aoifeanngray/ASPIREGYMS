@@ -129,8 +129,12 @@ This displays the copyright details.
 
 ## Contact Page
 ### Error 1: 
+......
 
+## W3C CSS Validator Results:
+![css validator](https://user-images.githubusercontent.com/84388121/125218640-4a67a400-e2bb-11eb-9bf3-433b0611c69a.JPG)
 
+## Other testing:
 - All nav links when clicked perform the correct function to bring the user to the correct html pages.
 
 - All nav links show a difference in Color when you hover over the link.
