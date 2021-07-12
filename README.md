@@ -102,6 +102,7 @@ This displays the copyright details.
 - On completion of my testing, I then put my code through validators to ensure my code was up to standard, to identify error so they can be corrected. I used the W3C validator for HTML and Jigsaw Validator for CSS.
 
 ## W3C validator results: 
+## Home page
 ### Error 1:
 - Changed the image names to remove the spacings. Also, all images are visible and responsive to screen size. 
 ![error - home page](https://user-images.githubusercontent.com/84388121/125214199-96abe780-e2ad-11eb-92b6-a9ff1285fdec.JPG) 
@@ -115,9 +116,16 @@ This displays the copyright details.
 ![error3 - home page](https://user-images.githubusercontent.com/84388121/125214910-79791800-e2b1-11eb-9918-8f7c635e2477.JPG)
 
 ### Error 4: 
-- This error has been left as the two sections have the same CSS styling, therefore same ID applied. 
+- This error has been corrected, two sections have the same CSS styling, therefore same ID had been applied. 
 ![error 4 - home page](https://user-images.githubusercontent.com/84388121/125215059-1a67d300-e2b2-11eb-8d59-b87c2e4d7c9a.JPG)
 
+## Membership Page 
+### Error 1: 
+- This error has been corrected. 
+![error 2 - membership page](https://user-images.githubusercontent.com/84388121/125215648-f60cf600-e2b3-11eb-98c8-b18b9352a1cb.JPG)
+
+### Error 2: 
+- This error has been corrected, two ID's used in more than one element. They had the same CSS styling, therefore same ID had been applied. (monthly and prices) 
 
 
 - All nav links when clicked perform the correct function to bring the user to the correct html pages.
