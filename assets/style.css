@@ -57,7 +57,7 @@ li a:hover {
     text-shadow: 1px 1px red;
     padding: 15px;
 }
-#content {
+#about, #places, #services {
     background-color: #fffcfb;
     max-width: 80%;
     margin-left: auto;
@@ -297,7 +297,7 @@ h3 {
         margin-left: auto;
         margin-right: auto;
     }
-    #content {
+    #about #places #services {
         max-width: 90%;
         justify-content: center;
         font-size: 20px;
@@ -434,7 +434,7 @@ h3 {
         margin-left: auto;
         margin-right: auto;
     }
-    #content {
+    #about #places #services {
         max-width: 90%;
         justify-content: center;
     }
@@ -546,7 +546,7 @@ h3 {
     .promo2 {
         display: none;
     }
-    #content {
+    #about #places #services {
         max-width: 80%;
         justify-content: center;
     }
