@@ -147,3 +147,49 @@ This displays the copyright details.
 - All nav links show a difference in Color when you hover over the link.
 
 - The Video is responsive when the screen size is at 320px. The video also has user controls and will start playing automatically when the user clicks on the page and is muted. 
+
+## Deployment: 
+### To create the website: 
+First I began by using the Code Institute Gitpod Full Template.
+
+Secondly, I had to then 'create a new repository' using the template.
+I gave it a repo name, then clicked create repository. 
+From there I clicked the green 'Gitpod' button to begin my coding. 
+
+### How I committed my work throughout the project:
+
+- git add .  - I typed this into the terminal to add the files to the staging area. 
+- git commit -m "explaining the updates" - I typed this command into the terminal to commit changes to the local repository. 
+- git push - this pushes all committed changes to the GitHub repository.
+
+## To publish the site link:
+- Login to GitHub, go to your Repository.
+
+- Go to the "Settings" Button on the menu and down to the 'pages' option. 
+
+- Go to "Source", change to "Master Branch".
+
+- Click Save and then back into the pages section to find your published link for the site.
+
+Link to view: [here](https://aoifeanngray.github.io/ASPIREGYMS/)
+
+
+## Credits: 
+### Content: 
+All images (excluding the logo - created by me) and the video was taken from the free download site below:
+[Pixabay](https://pixabay.com/)
+
+The pricings were copied from the below site: 
+[Fyre gyms](https://www.fyregyms.ie/)
+
+Inspiration from another gym website: 
+[Westside](https://westsidegym.ie/)
+
+## Tools: 
+- [tinyjpg](https://tinyjpg.com/) - To compress my photos
+- [W3C Schools](https://www.w3schools.com/html/) - aid for HTML code 
+- [W3C Schools](https://www.w3schools.com/css/default.asp) - aid for CSS code
+- [W3C Validator](https://validator.w3.org/#validate_by_input) - to validate HTML
+- [W3C Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - to validate CSS
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) - to aid with code inspect of webpage 
+- [Project inspiration](https://github.com/TechCentreUK/Eco-Print) - inspired and aided my project README. 
