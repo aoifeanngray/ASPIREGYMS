@@ -136,6 +136,10 @@ This displays the copyright details.
 - replace for attribute with value to correct below error. 
 ![error2-contact](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error2%20-%20contact%20page.JPG)
 
+### Error 3: 
+- replace for attribute with id to correct below error. 
+![error3-contact](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error3%20-%20contact%20page.JPG)
+
 ## W3C CSS Validator Results:
 ![css validator](https://user-images.githubusercontent.com/84388121/125218640-4a67a400-e2bb-11eb-9bf3-433b0611c69a.JPG)
 
