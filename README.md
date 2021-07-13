@@ -189,6 +189,9 @@ Link to view: [here](https://aoifeanngray.github.io/ASPIREGYMS/)
 All images (excluding the logo - created by me) and the video was taken from the free download site below: 
 [Pixabay](https://pixabay.com/)
 
+README file inspiration and aid from the below example provided by mentor:
+[readme example](https://github.com/TechCentreUK/Eco-Print/blob/master/README.md)
+
 The pricings were copied from the below site: 
 [Fyre gyms](https://www.fyregyms.ie/)
 
