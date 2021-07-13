@@ -95,6 +95,7 @@ This displays the copyright details.
 - Gym classes schedule to be added to a new page on the site. 
 - Allow users to buy memberships online.
 - Personal trainers profile page for each gym.
+- Form isn't collecting any data as we have just covered HTML and CSS so to add data collection into the form code will be implemented in the future. 
 
 ## Testing and Validating:
 - The three pages have been tested across all screen sizes for a responsive experience by creating media queries in the CSS file. Throughout my testing of the screen sizing for each page I had to go back through and change some size values in order to have them formatted to work correctly.
