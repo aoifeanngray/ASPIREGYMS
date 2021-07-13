@@ -112,7 +112,7 @@ This displays the copyright details.
 ![error2 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error2%20-%20home%20page.JPG)
 
 ### Error 3: 
-- The list of facilities has an intentional UL inside a UL as it is a sub-list. Kept the same.
+- removed UL element inside other UL.
 ![error3 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error3%20-%20home%20page.JPG)
 
 ### Error 4: 
@@ -185,7 +185,7 @@ Link to view: [here](https://aoifeanngray.github.io/ASPIREGYMS/)
 
 ## Credits: 
 ### Content: 
-All images (excluding the logo - created by me) and the video was taken from the free download site below:
+All images (excluding the logo - created by me) and the video was taken from the free download site below: 
 [Pixabay](https://pixabay.com/)
 
 The pricings were copied from the below site: 
