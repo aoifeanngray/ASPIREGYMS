@@ -4,7 +4,7 @@ Ireland's fastest growing gyms and the best providers for your fitness journey.
 
 Link to view: [here](https://aoifeanngray.github.io/ASPIREGYMS/)
 
-![responsive image](https://user-images.githubusercontent.com/84388121/125202567-07caab00-e26c-11eb-993e-2db5c5de5a2e.JPG)
+![responsive image](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/responsive.jpg)
 
 ## Porfolio Project 1 
 ### Purpose: 
@@ -54,42 +54,42 @@ The pages have a Google Fonts link to style the content of the pafes. The fonts 
 The navbar consists of three pages, the Home, Membership / Personal Training and Contact page. 
 Each of these pages are easily accessible in the navbar on each page and allows the user to navigate through the website with ease. 
 
-![navbar](https://user-images.githubusercontent.com/84388121/125211273-19787680-e29d-11eb-99e2-c1407a62c089.JPG)
+![navbar](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/navbar.JPG)
 
 ### Section 1 - Home: 
 
 The home page's first section is containing an eye catching promotion and an 'About Us' section and a 'Locations' sections. 
 The promotion gives the user a reasion to keep looking through the site and get more information about the gyms. The 'About Us' is an introduction to the gyms and how they came to be as the best gyms in Ireland. Of course the locations section is important so the users know where the gyms are located. 
-![section 1 - home](https://user-images.githubusercontent.com/84388121/125211874-855cde00-e2a1-11eb-8b81-5c1ecd13a02b.JPG)
-![locations - home page](https://user-images.githubusercontent.com/84388121/125211902-b3dab900-e2a1-11eb-9194-a5e39a5d3dcb.JPG)
+![section 1 - home](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/section%201%20-%20home.JPG)
+![locations - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/locations%20-%20home%20page.JPG)
 
 ### Section 2 - Home: 
 
 This section shows the facilities that are available to the members of the gym. This is a very important section as this is a user goal. This will help them decide if this is the gym they would like to be apart of. 
-![facilities section1 - home page](https://user-images.githubusercontent.com/84388121/125211979-1df35e00-e2a2-11eb-9d9b-cded58166512.JPG)
-![facilities section2 - home page](https://user-images.githubusercontent.com/84388121/125212065-c6a1bd80-e2a2-11eb-81f6-a7897433ad2a.JPG)
+![facilities section1 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/facilities%20section1%20-%20home%20page.JPG)
+![facilities section2 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/facilities%20section2%20-%20home%20page.JPG)
 
 ### Section 3 - Home:
 Third section displays the opening times and a google maps link to the flagship gym. This is for convience to give easy access the most popular gym. 
-![times and map - home page](https://user-images.githubusercontent.com/84388121/125212251-f30a0980-e2a3-11eb-86e4-221f38a2985a.JPG)
+![times and map - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/times%20and%20map%20-%20home%20page.JPG)
 
 ## Membership / Personal Training
 ### Membership prices - Membership page:
 This is very important to the user. This can be the deciding point for them whether the gym is right for them. 
-![membership - membership page](https://user-images.githubusercontent.com/84388121/125212443-57799880-e2a5-11eb-87bc-1d0299fcd725.JPG)
+![membership - membership page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/membership%20-%20membership%20page.JPG)
 
 ### Personal Training - Membership page: 
 A video and a paragraph to notify the user of the personal training servives. This leads them to the conact page for more information. 
-![personal training - membership page](https://user-images.githubusercontent.com/84388121/125212719-4b8ed600-e2a7-11eb-9bf7-c84b8249b898.JPG)
+![personal training - membership page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/personal%20training%20-%20membership%20page.JPG)
 
 ## Contact Page
 ### Contact form:
 The contact form provides the user access to the gym they desire and also the gyms access to interested nw members and/or existing members.
-![contact form - contact page](https://user-images.githubusercontent.com/84388121/125212910-5138eb80-e2a8-11eb-93a6-b0f6220d732f.JPG)
+![contact form - contact page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/contact%20form%20-%20contact%20page.JPG)
 
-### Footer - Alll pages:
+### Footer - All pages:
 This displays the copyright details. 
-![footer - all pages](https://user-images.githubusercontent.com/84388121/125212359-c9051700-e2a4-11eb-9267-5019ce7eebc9.JPG)
+![footer - all pages](https://github.com/aoifeanngray/ASPIREGYMS/blob/master/readme-images/footer%20-%20all%20pages.JPG?raw=true)
 
 ### Future Features: 
 - Gym classes schedule to be added to a new page on the site. 
@@ -105,24 +105,24 @@ This displays the copyright details.
 ## Home page
 ### Error 1:
 - Changed the image names to remove the spacings. Also, all images are visible and responsive to screen size. 
-![error - home page](https://user-images.githubusercontent.com/84388121/125214199-96abe780-e2ad-11eb-92b6-a9ff1285fdec.JPG) 
+![error - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%20-%20home%20page.JPG) 
 
 ### Error 2:
 - P element was inputted as a child of the Unordered list element. This has been corrected and removed as a child of that element. 
-![error2 - home page](https://user-images.githubusercontent.com/84388121/125214498-6ebd8380-e2af-11eb-8896-d4a45a44aaa7.JPG)
+![error2 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error2%20-%20home%20page.JPG)
 
 ### Error 3: 
 - The list of facilities has an intentional UL inside a UL as it is a sub-list. Kept the same.
-![error3 - home page](https://user-images.githubusercontent.com/84388121/125214910-79791800-e2b1-11eb-9918-8f7c635e2477.JPG)
+![error3 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error3%20-%20home%20page.JPG)
 
 ### Error 4: 
 - This error has been corrected, two sections have the same CSS styling, therefore same ID had been applied. 
-![error 4 - home page](https://user-images.githubusercontent.com/84388121/125215059-1a67d300-e2b2-11eb-8d59-b87c2e4d7c9a.JPG)
+![error 4 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%204%20-%20home%20page.JPG)
 
 ## Membership Page 
 ### Error 1: 
 - This error has been corrected. 
-![error 2 - membership page](https://user-images.githubusercontent.com/84388121/125215648-f60cf600-e2b3-11eb-98c8-b18b9352a1cb.JPG)
+![error 2 - membership page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%202%20-%20membership%20page.JPG)
 
 ### Error 2: 
 - This error has been corrected, two ID's used in more than one element. They had the same CSS styling, therefore same ID had been applied. (monthly and prices) 
@@ -141,14 +141,14 @@ This displays the copyright details.
 ![error3-contact](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error3%20-%20contact%20page.JPG)
 
 ## W3C CSS Validator Results:
-![css validator](https://user-images.githubusercontent.com/84388121/125218640-4a67a400-e2bb-11eb-9bf3-433b0611c69a.JPG)
+![css validator](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/css%20validator.JPG)
 
 ## Lighthouse Testing - DevTool:
 - Mobile test results:
-![lighthouse-mobile](https://user-images.githubusercontent.com/84388121/125219393-923afb00-e2bc-11eb-9b32-8394e9c6fa8d.JPG)
+![lighthouse-mobile](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/lighthouse-mobile.JPG)
 
 - Desktop test Results:
-![lighthouse-desktop](https://user-images.githubusercontent.com/84388121/125219555-ddeda480-e2bc-11eb-9add-33542c4ca9c6.JPG)
+![lighthouse-desktop](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/lighthouse-desktop.JPG)
 
 ## Other testing:
 - All nav links when clicked perform the correct function to bring the user to the correct html pages.
