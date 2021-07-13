@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Vollkorn:wght@600&display=swap');
-
+/*Google fonts - provide font styles for website*/
 body {
     background-color: rgb(148, 58, 58);
     color: rgb(44, 42, 42);
@@ -11,17 +11,19 @@ header {
     padding: 15px;
 }
 
+/*image to promote and gain user interest*/
 .promo1 {
     max-width: 100%;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
-
+/* image for smaller screen sizes*/
 .promo2 {
     display: none;
 }
 
+/* Aspire Gyms logo styling*/
 #name2 {
     color: rgb(41, 32, 32);
     text-shadow: 1px 2px rgb(250, 248, 248);
@@ -31,6 +33,7 @@ header {
     padding: 5px;
 }
 
+/*Nav bar styling*/
 .navbar {
     text-transform: uppercase;
     display: block;
@@ -40,16 +43,19 @@ header {
     background-color: rgb(148, 58, 58);
 }
 
+/*create reactive links on pages*/
 li a:hover {
     color: rgb(148, 58, 58);
     border-bottom: black solid 2px;
 }
 
+/*display active page*/
 .active {
     border-bottom: black solid 2px;
     color: inherit;
 }
 
+/*styling for the page links in Nav bar*/
 #menu li {
     display: inline-block;
     font-family: inherit;
@@ -65,6 +71,7 @@ li a:hover {
     padding: 15px;
 }
 
+/*home page content styling*/
 #about,
 #places,
 #services {
@@ -75,6 +82,7 @@ li a:hover {
     display: block;
 }
 
+/*membership page prices styling*/
 #prices1,
 #prices2 {
     background-color: #fffcfb;
@@ -84,6 +92,7 @@ li a:hover {
     display: block;
 }
 
+/*general styling for smaller sections*/
 #content3 {
     background-color: #949291;
     width: 80%;
@@ -98,6 +107,7 @@ li a:hover {
     margin-right: auto;
 }
 
+/*gym locations styling on home page*/
 .locations {
     display: block;
     font-size: 30px;
@@ -105,6 +115,7 @@ li a:hover {
     margin-bottom: 5%;
 }
 
+/*text styling standards*/
 h1,
 p {
     text-align: center;
@@ -129,6 +140,7 @@ p {
     font-size: 30px;
 }
 
+/*Facilities styling on home page*/
 .facilities {
     background-color: #fffcfb;
     max-width: 80%;
@@ -147,6 +159,7 @@ p {
     padding: 0;
 }
 
+/*home page images styling*/
 #gym-machines,
 #facilities-img {
     width: 80%;
@@ -157,6 +170,7 @@ p {
     border: white solid;
 }
 
+/*membership page image styling*/
 #trainer {
     width: 80%;
     height: auto;
@@ -167,6 +181,7 @@ p {
     border: white solid;
 }
 
+/*side by side content styling*/
 .container1 {
     display: flex;
     justify-content: space-evenly;
@@ -184,16 +199,19 @@ p {
     justify-content: space-between;
 }
 
+/*image for smaller screen size*/
 #facilities-img2 {
     display: none;
 }
 
+/*opening times on home page*/
 .time {
     max-width: 45%;
     font-size: 30px;
     text-align: left;
 }
 
+/*membership prices styling*/
 .deal {
     max-width: 100%;
     font-size: 30px;
@@ -208,6 +226,7 @@ p {
     margin-right: 20px;
 }
 
+/*membership pricing stylings*/
 #monthly1,
 #monthly2,
 #monthly3,
@@ -218,6 +237,7 @@ p {
     margin-left: 6%;
 }
 
+/*home page google maps location*/
 .map {
     background-color: #fffcfb;
     border: rgb(44, 42, 42) solid;
@@ -237,16 +257,19 @@ p {
     margin-bottom: 20px;
 }
 
+/*content correction*/
 .topmargin {
     margin-top: 0px;
     text-align: center;
 }
 
+/*more pricing styling*/
 .theprices {
     background-color: #fffcfb;
     border: rgb(44, 42, 42) solid;
 }
 
+/*contact form stylings*/
 fieldset {
     flex-flow: column;
     max-width: 50%;
@@ -270,6 +293,7 @@ div #contact {
     padding: 20px;
 }
 
+/*info to input on form styled*/
 input,
 select,
 textarea {
@@ -278,6 +302,7 @@ textarea {
     min-width: 90%;
 }
 
+/*contact form reset button*/
 #reset {
     padding: 0;
     display: block;
@@ -295,6 +320,7 @@ h3 {
     margin-right: auto;
 }
 
+/*all pages footer styling*/
 #footer {
     height: 7vh;
     text-align: center;
@@ -305,6 +331,7 @@ h3 {
     width: 100%;
 }
 
+/*media query for small screen size*/
 @media only screen and (max-width: 320px) {
     body {
         margin: 0px;
@@ -479,6 +506,7 @@ h3 {
     }
 }
 
+/*media query for medium size screen*/
 @media screen and (min-width: 321px) and (max-width: 600px) {
     body {
         margin: 0px;
@@ -616,6 +644,7 @@ h3 {
     }
 }
 
+/*media query for larger screens size*/
 @media only screen and (min-width: 601px) and (max-width: 1250px) {
     body {
         margin: 0px;
