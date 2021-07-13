@@ -13,6 +13,7 @@
 
 <body>
     <header>
+        <!--Nav bar and logo image--> 
         <nav class="navbar">
             <a href="index.html" id="name2" class="active"><strong>ASPIRE GYMS</strong></a>
             <ul id="menu">
@@ -27,8 +28,10 @@
         <img src="assets/images/promo-img.jpg" alt="promo img" class="promo1">
         <img src="assets/images/promo-img2.jpg" alt="promo img" class="promo2">
     </header>
+    <!--Contact form for the user to fill out, will give them easy access to whichever gym they want to speak to-->
     <h3>Fill out the form below to receive a call from your selected location for more info!</h3>
     <fieldset>
+        <!--All fields are required for the user to fill out on the form-->
         <legend><strong>Contact Form</strong></legend>
         <form id="contact">
             <label for="name"><strong>Name:</strong></label>
@@ -45,6 +48,7 @@
             <br>
             <label for="locations"><strong>Location:</strong></label>
             <br>
+            <!--Select a location-->
             <select name="locations" required>
                 <option value="Dublin">Dublin</option>
                 <option value="Meath">Meath</option>
@@ -56,6 +60,7 @@
                 <option value="Wexford">Wexford</option>
             </select>
             <br>
+            <!-- Give extra info for reason for contacting-->
             <textarea name="info" id="info" placeholder="What can we help you with?" rows="10" cols="40"></textarea>
             <br>
             <button type="submit" value="submit"><strong>Submit</strong></button>
